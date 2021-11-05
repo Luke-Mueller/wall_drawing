@@ -6,5 +6,4 @@ let container: HTMLDivElement;
 window.onload = () => {
     container = document.querySelector(selector)!;
     new WallDrawing(container);
-    
 }
